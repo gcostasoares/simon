@@ -1,70 +1,42 @@
-# Getting Started with Create React App
+# Simon-like Game using React JS
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This React JS application is a game similar to Simon, a classic memory game where players need to remember and repeat a sequence of colors. It was developed by Gabriel Costa Soares.
 
-## Available Scripts
+## Description
 
-In the project directory, you can run:
+This application is a web-based game where players must remember a sequence of colors flashed by the app and replicate that sequence. It features various colored cards that flash in a specific sequence, challenging the player's memory skills.
 
-### `npm start`
+## Technologies Used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- React JS
+- JavaScript
+- HTML
+- CSS (SCSS)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## How to Play
 
-### `npm test`
+1. Click on the "Start" button to begin the game.
+2. Pay attention to the sequence of flashing colors displayed.
+3. Repeat the sequence by clicking on the colored cards in the same order.
+4. The game will progress with an increased sequence length for every successful round.
+5. If you make a mistake, the game ends, and your final score is displayed.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Developer
 
-### `npm run build`
+This app was developed by Gabriel Costa Soares.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Running the Application Locally
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+To run this application locally, follow these steps:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Clone this repository.
+2. Navigate to the project directory in the terminal.
+3. Run `npm install` to install the dependencies.
+4. Run `npm start` to start the development server.
+5. Access the application in your web browser at `http://localhost:3000`.
 
-### `npm run eject`
+## Credits
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+The application design and logic were created by Gabriel Costa Soares.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Feel free to reach out for any questions or improvements related to this project.
